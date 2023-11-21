@@ -8,7 +8,6 @@ export class ViaCepService {
 
   async getEnderecoPorCep(cep: string): Promise<AxiosResponse<any>> {
     const apiUrl = `https://viacep.com.br/ws/${cep}/json/`;
-    console.log(apiUrl);
     return this.httpService.axiosRef
       .get(apiUrl)
       .then((result) => {
