@@ -7,6 +7,7 @@ CREATE TABLE "Pessoa" (
     "cidade" TEXT NOT NULL,
     "logradouro" TEXT NOT NULL,
     "bairro" TEXT NOT NULL,
+    "estado" TEXT NOT NULL,
     "numero" TEXT NOT NULL,
     "complemento" TEXT NOT NULL,
     "novoEndereco" BOOLEAN NOT NULL

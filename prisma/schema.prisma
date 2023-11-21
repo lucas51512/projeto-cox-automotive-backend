@@ -18,6 +18,7 @@ model Pessoa {
   cidade String
   logradouro String
   bairro String
+  estado String
   numero String
   complemento String
   novoEndereco Boolean
